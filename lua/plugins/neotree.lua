@@ -7,10 +7,10 @@ return {
         show_hidden_count = false,
         hide_dotfiles = false,
         hide_gitignore = false,
-        hide_by_name = {
+        hide_by_name = {},
+        never_show = {
           ".git",
         },
-        never_show = {},
       },
     },
   },
